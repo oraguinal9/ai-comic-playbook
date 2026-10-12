@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# AI 摄取友好
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://manju.zbjh.top/sitemap.xml

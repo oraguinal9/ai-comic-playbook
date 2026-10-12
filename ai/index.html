@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>漫剧制作知识库 · AI 摄取版</title>
+<meta name="description" content="给 AI 读的漫剧制作知识库：单文件全文 Markdown、分篇 md、llms.txt。人类浏览版在首页。">
+<style>
+:root{--bg:#f6f7f9;--panel:#fff;--ink:#1f2733;--sub:#5b6675;--line:#e4e8ef;--brand:#2f6fd0;--brand-soft:#eaf2fd;--accent:#7a5af8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.8 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+header{background:linear-gradient(90deg,#0C447C,#185FA5);color:#fff;padding:26px 22px}
+header h1{margin:0;font-size:20px}
+header h1 span{font-weight:400;opacity:.8;font-size:15px}
+header p{margin:8px 0 0;font-size:13.5px;opacity:.9}
+header a{color:#ffd86b}
+.wrap{max-width:900px;margin:0 auto;padding:22px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}
+.card h2{margin:0 0 10px;font-size:16px;color:var(--ink)}
+.big{display:flex;gap:12px;flex-wrap:wrap}
+.big a{flex:1;min-width:240px;display:block;text-decoration:none;border:1px solid var(--line);
+  border-radius:12px;padding:14px 16px;background:var(--brand-soft)}
+.big a:hover{border-color:var(--brand)}
+.big a b{display:block;color:var(--brand);font-size:15px}
+.big a span{color:var(--sub);font-size:12.5px}
+code{background:#eef2f7;border-radius:5px;padding:2px 6px;font-family:Consolas,monospace;font-size:12.5px}
+ol{padding-left:22px}li{margin:6px 0}
+ul.md{list-style:none;padding:0;margin:0;columns:2;column-gap:26px}
+ul.md li{margin:0 0 8px;break-inside:avoid}
+ul.md a{color:var(--brand);text-decoration:none;font-size:13.5px}
+ul.md .meta{color:var(--sub);font-size:11.5px;margin-left:6px}
+.back{font-size:13.5px}
+@media(max-width:640px){ul.md{columns:1}}
+</style></head>
+<body>
+<header>
+  <h1>漫剧制作知识库 <span>· AI 摄取版</span></h1>
+  <p>这是<b>给 AI / 爬虫读</b>的版本。给人看的浏览版（可搜索、可切主题）在 <a href="/">首页</a>。</p>
+</header>
+<div class="wrap">
+  <div class="card">
+    <h2>① 一次投喂（推荐）</h2>
+    <div class="big">
+      <a href="/ai/kb_full.md"><b>全库单文件 · Markdown</b><span>/ai/kb_full.md — 复制或上传给豆包 / DeepSeek / Claude / GPT</span></a>
+      <a href="/llms-full.txt"><b>全库纯文本</b><span>/llms-full.txt — 同内容，纯文本，便于爬取</span></a>
+    </div>
+  </div>
+  <div class="card">
+    <h2>② 机器索引</h2>
+    <p class="back"><a href="/llms.txt">/llms.txt</a>（站点清单，llms.txt 约定）&nbsp;·&nbsp;<a href="/sitemap.xml">/sitemap.xml</a>&nbsp;·&nbsp;<a href="/robots.txt">/robots.txt</a></p>
+  </div>
+  <div class="card">
+    <h2>③ 分篇 Markdown（共 16 篇）</h2>
+    <ul class="md">
+<li><a href="/ai/md/00.md"><b>00 · 总索引与说明</b></a> <span class="meta">3156 字</span></li>
+<li><a href="/ai/md/01.md"><b>01 · 基础认知与题材图谱</b></a> <span class="meta">1066 字</span></li>
+<li><a href="/ai/md/02.md"><b>02 · 剧本与叙事工程</b></a> <span class="meta">6794 字</span></li>
+<li><a href="/ai/md/03.md"><b>03 · 角色与美术资产规范</b></a> <span class="meta">4098 字</span></li>
+<li><a href="/ai/md/04.md"><b>04 · 工具路线_线上与本地</b></a> <span class="meta">1609 字</span></li>
+<li><a href="/ai/md/05.md"><b>05 · 声音与音画节奏</b></a> <span class="meta">2367 字</span></li>
+<li><a href="/ai/md/06.md"><b>06 · 后期包装与平台适配</b></a> <span class="meta">973 字</span></li>
+<li><a href="/ai/md/07.md"><b>07 · 质量评测与排错手册</b></a> <span class="meta">2908 字</span></li>
+<li><a href="/ai/md/08.md"><b>08 · 运营分发与变现</b></a> <span class="meta">1019 字</span></li>
+<li><a href="/ai/md/09.md"><b>09 · 术语表</b></a> <span class="meta">4744 字</span></li>
+<li><a href="/ai/md/10.md"><b>10 · 案例库</b></a> <span class="meta">4324 字</span></li>
+<li><a href="/ai/md/11.md"><b>11 · 出海专项</b></a> <span class="meta">2351 字</span></li>
+<li><a href="/ai/md/12.md"><b>12 · 分镜表实操与模板</b></a> <span class="meta">6347 字</span></li>
+<li><a href="/ai/md/13.md"><b>13 · 双流程实战_剧本分镜到出片</b></a> <span class="meta">21492 字</span></li>
+<li><a href="/ai/md/14.md"><b>14 · 镜头语言与运镜体系</b></a> <span class="meta">7095 字</span></li>
+<li><a href="/ai/md/15.md"><b>15 · 导演思维与场面调度</b></a> <span class="meta">5128 字</span></li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>怎么用（3 步）</h2>
+    <ol>
+      <li>把 <code>/ai/kb_full.md</code> 的全文粘贴进你的 AI 对话（或上传文件）。</li>
+      <li>追问，例如：<code>按这份知识库，帮我写一集竖屏漫剧的分镜脚本，并给出即梦出图提示词</code>。</li>
+      <li>需要更省 context 时，只投喂相关分篇（如 <code>/ai/md/13.md</code> 双流程实战）。</li>
+    </ol>
+  </div>
+  <p class="back">← 返回 <a href="/">人类浏览版</a></p>
+</div>
+</body></html>

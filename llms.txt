@@ -1,0 +1,25 @@
+# 漫剧制作知识库（AI 摄取版）
+
+> AI 漫剧制作知识库：覆盖线上（豆包/DeepSeek 写剧本分镜 + 即梦出图/出视频）与本地（ComfyUI + MiniMax H3）两条出片流水线，含提示词写法、人物一致性、剧情连贯性、后期、分发、排错等。人类浏览版见 https://manju.zbjh.top/ 。
+
+## 推荐先读（一次投喂）
+- [全库单文件 Markdown](https://manju.zbjh.top/ai/kb_full.md)
+- [全库纯文本](https://manju.zbjh.top/llms-full.txt)
+
+## 分篇索引（共 16 篇）
+- [00 · 总索引与说明](https://manju.zbjh.top/ai/md/00.md)
+- [01 · 基础认知与题材图谱](https://manju.zbjh.top/ai/md/01.md)
+- [02 · 剧本与叙事工程](https://manju.zbjh.top/ai/md/02.md)
+- [03 · 角色与美术资产规范](https://manju.zbjh.top/ai/md/03.md)
+- [04 · 工具路线_线上与本地](https://manju.zbjh.top/ai/md/04.md)
+- [05 · 声音与音画节奏](https://manju.zbjh.top/ai/md/05.md)
+- [06 · 后期包装与平台适配](https://manju.zbjh.top/ai/md/06.md)
+- [07 · 质量评测与排错手册](https://manju.zbjh.top/ai/md/07.md)
+- [08 · 运营分发与变现](https://manju.zbjh.top/ai/md/08.md)
+- [09 · 术语表](https://manju.zbjh.top/ai/md/09.md)
+- [10 · 案例库](https://manju.zbjh.top/ai/md/10.md)
+- [11 · 出海专项](https://manju.zbjh.top/ai/md/11.md)
+- [12 · 分镜表实操与模板](https://manju.zbjh.top/ai/md/12.md)
+- [13 · 双流程实战_剧本分镜到出片](https://manju.zbjh.top/ai/md/13.md)
+- [14 · 镜头语言与运镜体系](https://manju.zbjh.top/ai/md/14.md)
+- [15 · 导演思维与场面调度](https://manju.zbjh.top/ai/md/15.md)
